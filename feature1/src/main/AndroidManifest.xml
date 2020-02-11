@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.feature1">
+
+    <application>
+        <activity android:name=".Feature1Activity">
+            <intent-filter android:label="@string/navigate_throw_application">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="feature1"
+                    android:scheme="dlnav" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

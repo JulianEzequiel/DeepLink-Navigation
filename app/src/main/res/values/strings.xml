@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DeeplinkNavigation</string>
+
+    <string name="navigate_throw_application">Navegación con Menu</string>
+</resources>
